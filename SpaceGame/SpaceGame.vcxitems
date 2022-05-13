@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{821d18a4-d3e0-44e6-b1ff-e6c4d4c88aff}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\CubeModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Graphics.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ImgGuiUI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imgui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imgui_impl_opengl3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imgui_internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imstb_rectpack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imstb_textedit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\imstb_truetype.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Input.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MeshManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\MyFiles.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ObjectModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ObjLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Planet.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\Shader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\ShaderManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\SpaceObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\stb_image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\tiny_obj_loader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Headers\WorldManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input\BaseInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input\WindowsInput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Input\BaseInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Externals\glad\src\glad.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Input\WindowsInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_01.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_02.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_03.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\neptunus.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\spaceStation.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\TARDIS-FIGRinconstruct.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\TARDIS-FIGR_mkIII_station.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\spaceDome.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shader\default.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shader\default.vert" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shader\diffuse.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Shader\diffuse.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\2k_neptune-min.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_01.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_01_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_02.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_02_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_03.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\brian_03_em.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\planet_Bog1200.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\bs.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\bsBump.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\bsLight.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\btBump.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\btLite.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\btpanel.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\hubB.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\hubDiffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\Map__9_Raytrace.tga" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\pc-bw.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\rust.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\signage.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\space-bg.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\spoke.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\spokeBump.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\spoke_Diff.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\std.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\windows.gif" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\SimpleStation\window_col.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\Space.png" />
+    <Image Include="$(MSBuildThisFileDirectory)Resources\ObjFiles\spaceDomeT.png" />
+  </ItemGroup>
+</Project>

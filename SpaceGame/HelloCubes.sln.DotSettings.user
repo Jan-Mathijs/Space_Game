@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=A65AC3B76A543043AF86BBC25F032EA6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=A65AC3B76A543043AF86BBC25F032EA6/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=A65AC3B76A543043AF86BBC25F032EA6/Name/@EntryValue">WindowsBuild</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=A65AC3B76A543043AF86BBC25F032EA6/ProjectGuid/@EntryValue">0C7ABE0E773BF9429E2A547A9A8A4783</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">A65AC3B76A543043AF86BBC25F032EA6</s:String></wpf:ResourceDictionary>
